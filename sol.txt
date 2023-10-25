@@ -1,0 +1,9 @@
+ CREATE table student(
+  sid int PRIMARY KEY,
+  sname varchar(30),
+  address varchar(50),
+  pn_no long check((length(pn_no)==10),
+  dob date
+  
+   )
+ insert into student values(2,"shailesh","Cotton ",88066196,1999-04-16);
